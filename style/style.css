@@ -8,7 +8,7 @@
 
 /*TYPOGRAPHY*/
 body {
-    background: url(subtle_dots.png); /* http://subtlepatterns.com/subtle-dots/ */
+    background: url("images/subtle_dots.png"); /* http://subtlepatterns.com/subtle-dots/ */
     
 }
 
@@ -55,11 +55,14 @@ section {
     list-style-type: square;
 }
 
+
 /*RESPONSIVE*/
 @media screen and (max-width: 320px) {
-    .right{
+    .right, .web, .design{
         width: 100%;
     }
+
+
 }
 
 
