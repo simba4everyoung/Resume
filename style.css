@@ -93,6 +93,21 @@ section {
     line-height: 1.5;
 }
 
+.web, .design{
+    width: 20%;
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    float: left;
+    text-align: center;
+    text-decoration: underline;
+}
+
+img{
+    width: 70%;
+    height: 100px;
+}
+
 .institution
 {
     font-style: italic;
