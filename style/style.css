@@ -8,7 +8,7 @@
 
 /*TYPOGRAPHY*/
 body {
-    background: url("images/subtle_dots.png"); /* http://subtlepatterns.com/subtle-dots/ */
+    background: url(subtle_dots.png); /* http://subtlepatterns.com/subtle-dots/ */
     
 }
 
@@ -58,7 +58,11 @@ section {
 
 /*RESPONSIVE*/
 @media screen and (max-width: 320px) {
-    .right, .web, .design{
+    .right{
+        width: 100%;
+    }
+
+    .web{
         width: 100%;
     }
 
